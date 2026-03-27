@@ -1,4 +1,4 @@
-🚀 Dani
+🚀 Projeto Personal Trainer
 <p align="center"> <img src="./assets/preview.png" width="800" style="border-radius: 10px;" /> </p>
 
 🧠 Sobre o projeto
