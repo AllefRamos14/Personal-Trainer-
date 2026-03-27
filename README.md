@@ -1,5 +1,6 @@
 🚀 Projeto Personal Trainer
 
+<p align="center"> <img src="./assets/preview.png" width="800" style="border-radius: 10px;" /> </p>
 
 🧠 Sobre o projeto
 
@@ -8,7 +9,7 @@ Projeto desenvolvido com React + Vite, focado em performance, componentização 
 Aplicação moderna com estrutura escalável, ideal para projetos reais.
 
 🛠️ Tecnologias
-
+<p align="center"> <img src="https://skillicons.dev/icons?i=react,vite,js,css,git" /> </p>
 
 ⚛️ React
 ⚡ Vite
