@@ -27,7 +27,7 @@ Código limpo e escalável
 
 🚀 Como rodar o projeto
 # Clonar repositório
-git clone https://github.com/SEU-USUARIO/dani.git
+git clone https://github.com/AllefRamos14/Personal-Trainer-.git
 
 # Entrar na pasta
 cd dani
