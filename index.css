@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 50px;
+  align-items: center;
+
+
+}
+
+.Container a {
+  font-size: 17px;
+  margin: 22px;
+  text-decoration: none;
+  color: #E6E6FA;
+  display: inline-block;
+}
+
+.Container a:hover {
+  color: #483D8B;
+  transition: 2s;
+  transform: scale(1.2)
+}
+
+.Container a:active {
+  opacity: 30%;
+  color: #E6E6FA;
+}
+
+.Container .button {
+  position: relative;
+  left: 160px;
+  background: transparent;
+  color: #fff;
+  width: 170px;
+  height: 30px;
+  border: 1px solid #483D8B;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer
+}
+
+.Container .button:hover {
+  color: #483D8B;
+  transition: 1s;
+  transform: scale(1.1)
+}
+
+/* Hero */
+
+.body {
+  background-color: #483D8B;
+  padding: 10px 20px;
+}
+
+#inicio .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #E6E6FA;
+}
+
+.hero-text p {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  color: #E6E6FA;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+}
+
+.btn-cta {
+
+  padding: 10px 10px;
+  background-color: #E6E6FA;
+  color: #483D8B;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+
+}
+
+/* Problemas */
+#problemas ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+#problemas li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+  color: #ddd;
+}
+
+#problemas li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #ff3c3c;
+}
